@@ -1,0 +1,198 @@
+import java.util.*;
+public class hotelorder {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String b="yes";
+            System.out.println("Welcome To RS Hotel");
+            System.out.println("Menu");
+            System.out.println("1.Fried Rice 2.Fried Noodle 3.Sides");
+            System.out.print("Select your Choice:");
+            int Menu_Choice=sc.nextInt();
+            if(Menu_Choice==1)
+            {
+                System.out.println("1.Chicken Rice:100 2.Egg Rice:80 3. veg Rice:60");
+                System.out.print("Select your Choice:");
+                int menu__choice=sc.nextInt();
+                if(menu__choice==1)
+                {
+                    System.out.print("How many plate do you want:");
+                    int quantity=sc.nextInt();
+                    System.out.println("total price:"+quantity*100);
+                    System.out.print("Take a order?: Yes or No:");
+                    String yes=sc.next();
+                    if(yes.equals(b))
+                    {
+                        System.out.println("your Order is placed");
+                        System.out.println("Thanks for your order");
+                        System.out.print("Visit again");
+                    }
+                    else
+                    {
+                        System.out.print("your order is canceled");
+                    }
+                }
+                else if (menu__choice==2)
+                {
+                    System.out.print("How many plate do you want:");
+                    int quantity=sc.nextInt();
+                    System.out.println("total price:"+quantity*80);
+                    System.out.print("Take a order?: Yes or No:");
+                    String yes=sc.next();
+                    if(yes.equals(b))
+                    {
+                        System.out.println("your Order is placed");
+                        System.out.println("Thanks for your order");
+                        System.out.print("Visit again");
+                    }
+                    else
+                    {
+                        System.out.print("your order is canceled");
+                    }
+                }
+                else if(menu__choice==3)
+                {
+                    System.out.print("How many plate do you want:");
+                    int quantity=sc.nextInt();
+                    System.out.println("total price:"+quantity*60);
+                    System.out.print("Take a order?: Yes or No:");
+                    String yes=sc.next();
+                    if(yes.equals(b))
+                    {
+                        System.out.println("your Order is placed");
+                        System.out.println("Thanks for your order");
+                        System.out.print("Visit again");
+                    }
+                    else
+                    {
+                        System.out.print("your order is canceled");
+                    }
+                }
+                else
+                {
+                    System.out.print("Invaild");
+                }
+                    
+                
+        
+            }
+            else if(Menu_Choice==2)
+            {
+                System.out.println("1.Noodle chicken fried Rice:100 2.Egg Noodle fried Rice:80 3. veg Rice:60");
+                System.out.print("Select your Choice:");
+                int menu__choice=sc.nextInt();
+                if(menu__choice==1)
+                {
+                    System.out.print("How many plate do you want:");
+                    int quantity=sc.nextInt();
+                    System.out.println("total price:"+quantity*100);
+                    System.out.print("Take a order?: Yes or No:");
+                    String yes=sc.next();
+                    if(yes.equals(b))
+                    {
+                        System.out.println("your Order is placed");
+                        System.out.println("Thanks for your order");
+                        System.out.print("Visit again");
+                    }
+                    else
+                    {
+                        System.out.print("your order is canceled");
+                    }
+                }
+                else if (menu__choice==2)
+                {
+                    System.out.print("How many plate do you want:");
+                    int quantity=sc.nextInt();
+                    System.out.println("total price:"+quantity*80);
+                    System.out.print("Take a order?: Yes or No:");
+                    String yes=sc.next();
+                    if(yes.equals(b))
+                    {
+                        System.out.println("your Order is placed");
+                        System.out.println("Thanks for your order");
+                        System.out.print("Visit again");
+                    }
+                    else
+                    {
+                        System.out.print("your order is canceled");
+                    }
+                }
+                else if(menu__choice==3)
+                {
+                    System.out.print("How many plate do you want:");
+                    int quantity=sc.nextInt();
+                    System.out.println("total price:"+quantity*60);
+                    System.out.print("Take a order?: Yes or No:");
+                    String yes=sc.next();
+                    if(yes.equals(b))
+                    {
+                        System.out.println("your Order is placed");
+                        System.out.println("Thanks for your order");
+                        System.out.print("Visit again");
+                    }
+                    else
+                    {
+                        System.out.print("your order is canceled");
+                    }
+                }
+                else
+                {
+                    System.out.print("Invaild");
+                }
+
+            }
+            else if(Menu_Choice==3)
+            {
+                System.out.println("1.Chicken 65:60 2.Chicken cravy:120");
+                System.out.print("Select your order:");
+                int Sides_choice=sc.nextInt();
+                if(Sides_choice==1)
+                {
+                    System.out.print("How many plate do you want:");
+                    int quantity=sc.nextInt();
+                    System.out.println("total price:"+quantity*60);
+                    System.out.print("Take a order?: Yes or No:");
+                    String yes=sc.next();
+                    if(yes.equals(b))
+                    {
+                        System.out.println("your Order is placed");
+                        System.out.println("Thanks for your order");
+                        System.out.print("Visit again");
+                    }
+                    else
+                    {
+                        System.out.print("your order is canceled");
+                    }
+
+                }
+                else if(Sides_choice==2)
+                {
+                    System.out.print("How many plate do you want:");
+                    int quantity=sc.nextInt();
+                    System.out.println("total price:"+quantity*120);
+                    System.out.print("Take a order?: Yes or No:");
+                    String yes=sc.next();
+                    if(yes.equals(b))
+                    {
+                        System.out.println("Your Order is placed");
+                        System.out.println("Thanks for your order");
+                        System.out.print("Visit again");
+                    }
+                    else
+                    {
+                        System.out.print("Your order is canceled");
+                    }
+                }
+                else
+                {
+                    System.out.print("Invaild");
+                }
+
+            }
+            else
+            {
+                System.out.print("Invaild");
+            }
+          sc.close();  
+    }
+    
+}
